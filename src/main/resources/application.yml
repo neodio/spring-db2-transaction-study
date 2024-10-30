@@ -1,0 +1,16 @@
+server:
+  port: 8080
+
+# spring
+spring:
+  application:
+    name: spring-db2-transaction-study
+  profiles:
+    active: local
+
+logging:
+  level:
+    org:
+      springframework:
+        transaction:
+          interceptor: trace
